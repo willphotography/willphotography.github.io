@@ -1,17 +1,67 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  scroll-behavior: smooth;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
-}
-
-h1 {
-  color: #333;
-}
-
-button {
-  padding: 10px 20px;
-  background: #333;
+  background: #222;
   color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  background: linear-gradient(to bottom right, #4a90e2, #9013fe);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: white;
+  color: #333;
   border: none;
   cursor: pointer;
+}
+
+/* Projects */
+.projects {
+  padding: 40px;
+}
+
+.project-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.project-card {
+  background: #eee;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+/* Contact */
+.contact {
+  padding: 40px;
+  background: #f4f4f4;
 }
