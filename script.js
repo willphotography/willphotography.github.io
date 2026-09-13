@@ -1,3 +1,3 @@
-document.getElementById("clickBtn").onclick = () => {
-  alert("Button clicked!");
+document.getElementById("heroBtn").onclick = () => {
+  alert("You clicked the hero button!");
 };
