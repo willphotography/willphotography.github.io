@@ -1,14 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
+  <meta charset="UTF-8">
+  <title>My Advanced Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Welcome to my website</h1>
-  <p>This site is coded entirely inside GitHub.</p>
 
-  <button id="clickBtn">Click me</button>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <h2 class="logo">MySite</h2>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to My Website</h1>
+    <p>I coded this myself and I'm learning more every day.</p>
+    <button id="heroBtn">Click Me</button>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">Project 1</div>
+      <div class="project-card">Project 2</div>
+      <div class="project-card">Project 3</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: example@email.com</p>
+  </section>
 
   <script src="script.js"></script>
 </body>
